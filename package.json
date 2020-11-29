@@ -42,6 +42,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "jest": {
     "collectCoverageFrom": [
@@ -72,5 +73,7 @@
      "html",
      "text"
    ]
+=======
+>>>>>>> 5625e1c8184b57b0f31c8989cf4cc515b87b4ea2
   }
 }
