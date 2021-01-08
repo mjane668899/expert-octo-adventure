@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# ![](app/assets/images/GA.png) SEI-38 Project 3: Viflix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This was developed as part of SEI 38 group Project, the goal was to build a web application from scratch, with knowledge of front and back-end web development to produce an awesome web application that can be used by friends, family or any of the other billions of people who use the Internet. The type of web application I chose to create was completely up to our group.
 
-In the project directory, you can run:
+There were a few prerequisite conditions for the app, they are as follows:
 
-### `yarn start`
+- Models. Your app should have at least 3 models. Make sure they are associated correctly!
+- Views. Use partials to DRY (Don’t Repeat Yourself) up your views.
+- Handles invalid data. Forms in your application should validate data and handle incorrect inputs. Validate sign up information, verify valid email addresses and secure passwords.
+- Use Gems Use a GEM that talks to an API to add functionality to your app.
+- User Login. Make sure you have basic authentication and authorisation set up (if you need it).
+- Heroku. Deploy your code to Heroku.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+You can see the site [here](https://rental-marketplace2020.herokuapp.com/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Point
+The codebase was built to minimise repeatable code.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## GA-BNB
+---
+#### Home
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The home page incorporates the use of Faker API to list properties, with the dashboard at the top linking to all the other pages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+#### User Login
 
-### `yarn eject`
+Users are able to login and change their password to meet their requirements.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+----
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Booking
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Once users have logged in they are directed to the properties Page. The individual property  pages takes advantage of CRUD operations to allow a user to create a booking with the use of the 'flatpickr gem' & the Stripe API to pay for their stay.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Once on the dashboard users have access to their reservations to edit/delete a booking.  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##### Other
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Working in a group really helped us understand the importance of git commits and working on separate branches. Learning to commit early and often to avoid JSON files clashing and crashing the repository. Overall it was a great learning experience.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### Future-addons
 
-### Analyzing the Bundle Size
+- GoogleMaps API (Very close to successfully integrating)
+- Cloudinary
+- Upgrading to React
+- Reviews
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Tools
+**Languages:** Javascript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Frameworks:** React(Custom Hooks, Context, Portals)
 
-### Advanced Configuration
+**Server:** Firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Libraries:** jQuery
